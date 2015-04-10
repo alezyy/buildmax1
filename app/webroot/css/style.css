@@ -1,0 +1,23 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+
+.navbar {
+
+background-color:#08298A;
+background-image: none;
+
+} 
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-left li a {
+    color: white;
+}
