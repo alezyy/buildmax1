@@ -3,9 +3,72 @@
 		<div class="col-md-12 column">
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
-				</div>
-				
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					  <span class="sr-only">Toggle navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					 </button> 
+ 			   
+
+                <div class="navbar-brand">
+
+ 			    <div class = "row logo">
+                <?php echo $this->Html->link(
+                    $this->Html->image('home_page/logobuildmax1.png', array("alt" => "Property",
+                    "title" => "Property", "width"=>"150px")),
+                    '/',
+                    array(
+                        'escape' => false
+                    )
+                ); ?> 
+              
+                </div>
+                
+                <div class="social">
+              
+    <ul>
+
+    	<li>
+                  <?php echo $this->Html->link(
+                        '<i class="fa fa-lg fa-facebook"></i>',
+                        'http://facebook.com/topmenuweb',
+                        array(
+                            'target' => '_blank',
+                            'escape' => false
+                        )
+                    ); ?>
+    	</li>
+ 		<li>
+ 				<?php echo $this->Html->link(
+                        '<i class="fa fa-lg fa-twitter"></i>',
+                        'http://twitter.com/buildmaxuweb',
+                        array(
+                            'target' => '_blank',
+                            'escape' => false
+                        )
+                    ); ?>
+
+ 		</li>
+ 		<li>
+ 				<?php echo $this->Html->link(
+                        '<i class="fa fa-lg fa-google-plus"></i>',
+                        'http://googleplus.com/topmenuweb',
+                        array(
+                            'target' => '_blank',
+                            'escape' => false
+                        )
+                    ); ?>
+ 		</li> 
+    </ul>
+    
+   </div>
+ </div>
+
+            
+
+
+
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">

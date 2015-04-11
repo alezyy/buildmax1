@@ -22,7 +22,7 @@ $cakeDescription = __('TopMenu');
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('ionicons.min');
                 echo $this->Html->css('font-awesome.min');
-		echo $this->Html->css('style');
+		//echo $this->Html->css('style');
 		echo $this->fetch('css');
                 //echo $this->element('canonicals'); 
 
