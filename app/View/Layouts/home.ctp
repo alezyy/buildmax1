@@ -20,7 +20,7 @@ $cakeDescription = __('TopMenu');
 		// echo $this->Html->css('home');
 		//echo $this->Html->css('bootstrap');
 		echo $this->Html->css('bootstrap.min');
-		echo $this->Html->css('style');
+		//echo $this->Html->css('style');
 		echo $this->fetch('css');
                 //echo $this->element('canonicals'); 
 

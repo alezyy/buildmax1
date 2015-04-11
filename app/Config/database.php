@@ -74,7 +74,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'Net463877',
-		'database' => 'cake-chiala',
+		'database' => 'buildmax1',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
