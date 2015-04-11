@@ -3496,3 +3496,22 @@ Request URL: /js/bootstrap-theme.min.js
 Stack Trace:
 #0 /var/www/test.dev/buildmax1/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-04-11 14:05:13 Error: Fatal Error (4): syntax error, unexpected '{', expecting '(' in [/var/www/test.dev/buildmax1/app/View/Homes/index.ctp, line 90]
+2015-04-11 14:05:13 Error: [FatalErrorException] syntax error, unexpected '{', expecting '('
+Request URL: /
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/test.d...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/test.d...', 90, Array)
+#2 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/test.d...', 90, Array)
+#3 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-11 14:05:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

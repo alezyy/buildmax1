@@ -85,7 +85,26 @@
                      	</li>
 
 						<li>
-							<a href="#">Register</a>
+							  <?php
+                    if (!$user_id) 
+                    {
+                       echo '<a href="#" class="" data-toggle="modal" data-target="#registerModal">'. __("Register") . '</a>';
+                     } else { 
+                    	
+                        echo $this->Html->link(
+                            __('Logout'). ' <b class="ion-log-out" data-pack="default" data-tags="sign out" style="display: inline-block;"></b>', 
+                            array(
+                                'controller' => 'users',
+                                'action'     => 'logout',
+                                'admin'      => false
+                            ), 
+                            array(
+                                'escape' => false)
+                            ); 
+                        }
+                       
+                       ?>
+
 						</li>
 						<li>
 							<a href="#">Francais</a>
