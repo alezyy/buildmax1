@@ -3420,3 +3420,79 @@ Request URL: /js/bootstrap-theme.min.js
 Stack Trace:
 #0 /var/www/test.dev/buildmax1/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-04-11 13:54:30 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/var/www/test.dev/buildmax1/app/View/Homes/index.ctp, line 81]
+2015-04-11 13:54:30 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/test.d...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/test.d...', 81, Array)
+#2 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/test.d...', 81, Array)
+#3 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-11 13:54:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-11 13:55:16 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/var/www/test.dev/buildmax1/app/View/Homes/index.ctp, line 81]
+2015-04-11 13:55:16 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/test.d...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/test.d...', 81, Array)
+#2 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/test.d...', 81, Array)
+#3 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-11 13:55:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-11 13:55:24 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/test.dev/buildmax1/app/View/Homes/index.ctp, line 258]
+2015-04-11 13:55:24 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/test.d...', 258)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/test.d...', 258, Array)
+#2 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/test.d...', 258, Array)
+#3 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-11 13:55:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-11 13:55:25 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/test.dev/buildmax1/app/View/Homes/index.ctp, line 258]
+2015-04-11 13:55:25 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/test.d...', 258)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/test.d...', 258, Array)
+#2 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/test.d...', 258, Array)
+#3 /var/www/test.dev/buildmax1/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-11 13:55:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmax1/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

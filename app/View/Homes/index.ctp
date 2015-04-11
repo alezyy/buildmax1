@@ -32,15 +32,66 @@
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 
-					    <li>
-							<a href="#">Sign In</a>
-						</li>
+					    <li class="dropdown" id="menu1">
+                      		<a class="dropdown-toggle" data-toggle="dropdown" href="#menu1"><?php echo __('Sign In'); ?></a>
+                        	<div class="dropdown-menu">
+                            	<?php echo $this->Form->create('User', array('role' => 'form', 'class' => 'form-signin', 'action' => 'login')); ?>
+                                <div class="form-group">
+                                    <?php echo $this->Form->input('User.email', array(
+                                        'label' => false,
+                                        'type' => 'email',
+                                        'class' => 'form-control',
+                                        'id' => 'email',
+                                        'autocomplete' => 'on',
+                                        'required' => 'required',
+                                        'placeholder' => __('Email Address')
+                                    )); ?>
+                                </div>
+                                <div class="form-group">
+                                    <?php echo $this->Form->input('User.password', array(
+                                        'label' => false,
+                                        'class' => 'form-control',
+                                        'id' => 'pwd',
+                                        'autocomplete' => 'on',
+                                        'required' => 'required',
+                                        'placeholder' => __('Password')
+                                    )); 
+                                    echo $this->Form->hidden('login_referer', array(
+                                        'value' => $this->request->referer(true)));
+                                    ?>
+                                </div>
+                                <div class="form-group text-center">
+                                <?php echo $this->Html->link(
+                                    __('Forgot Password'),
+                                    array(
+                                        'controller' => 'users',
+                                        'action' => 'forgot_password'
+                                    )
+                                ); ?>
+                                </div>
+                               
+                            <?php echo $this->Form->submit(__('Login'), array(
+                                'class' => 'btn btn-lg btn-primary btn-block',
+                            )); ?>
+                            <?php echo $this->Form->End(); ?>
+
+                       </div>
+                     </li>
+
+                     <?php // else: ?>
+
+                     	<li> 
+
+                     	</li>
+
 						<li>
 							<a href="#">Register</a>
 						</li>
 						<li>
 							<a href="#">Francais</a>
 						</li>
+
+						<? // php if (!$user_id): ?>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
