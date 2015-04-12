@@ -27,17 +27,38 @@
 	// Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 
            Router::connect('/', array('controller' => 'homes', 'action' => 'index'));
+	
+	  // Router::connect('/blog', array('controller' => 'posts', 'action' => 'index'));
+
+
 
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
+
+
+// Admin Routing
+	Router::connect(
+		'/admin',
+		array('controller' => 'admins', 'action' => 'index', 'admin' => true),
+		array('language' => '[a-z]{2}')
+	);
+
+	Router::connect(
+		'/:language/admin/:controller/:action/*',
+		array('admin' => true),
+		array('language' => '[a-z]{2}')
+	);
+
+
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
  */
 	CakePlugin::routes();
+ 
 
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use

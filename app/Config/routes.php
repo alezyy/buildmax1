@@ -27,7 +27,8 @@
 	// Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 
            Router::connect('/', array('controller' => 'homes', 'action' => 'index'));
-
+	
+ 	   
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
@@ -54,6 +55,7 @@
  * how to customize the loading of plugin routes.
  */
 	CakePlugin::routes();
+ 
 
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use
